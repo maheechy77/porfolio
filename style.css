@@ -14,7 +14,7 @@ h2{
 p{
     color: dimgray;
 }
-.name-highlight{
+.orange-highlight{
     color: salmon;
 }
 section{
@@ -78,4 +78,47 @@ section{
 .dream-content p{
     width: 80%;
     text-align: justify;
+}
+
+.experience-section{
+    background-image: url('./Images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-1{
+    float: left;
+    background-color: white;
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,lightsalmon,salmon);
+    border-image-slice: 1;
+}
+.experience-1 p,.experience-2 p{
+    width: 90%;
+    text-align: justify;
+}
+
+.experience-2{
+    float: right;
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+.experience-1,
+.experience-2{
+    margin-left: 40px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height: 70%;
+}
+footer{
+    text-align: center;
+    color: dimgray;
+    margin-bottom: 10px;
 }
